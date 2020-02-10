@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Curriculum and Benchmarking in Meta-Reinforcement Learning  "
+date:   2020-01-09
+image: /images/meta-adr.png
+categories: research
+author: "Bhairav Mehta"
+authors: "Bhairav Mehta, Tristan Deleu*, <strong>Sharath Chandra*</strong> Christopher Pal, Liam Paull "
+venue: "Submitted to Uncertainty in Artificial Intelligence (UAI)"
+arxiv: []
+code: []
+---
+In this work we study the under-studied parameter in meta learning, "Task Distributions". We show that Model Agnostic Meta-Learning (MAML) is sensitive to task distributions, and learning a curriculum of tasks 
+instead of uniformly sampling helps the adaptation performance substantially.

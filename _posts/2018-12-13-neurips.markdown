@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Explicit Sequence Proximity Models for Hidden State Identification"
+date:   2018-12-13
+image: /images/neurips.png
+categories: research
+authors: "Anil Kota, <strong>Sharath Chandra</strong>, Parag Khanna, Torbjorn Dahl"
+subtitle: "NeurIPS"
+venue: "Thirty-second Conference on Neural Information Processing Systems (NeurIPS), Workshop on Reinforcement Learning Under Partial Observability"
+arxiv: https://arxiv.org/abs/1705.05548
+code: https://github.com/SharathRaparthy/explicit_sequence_proximity
+---
+We tackle the problem of hidden state identification in POMDPs. We show that more forgiving proximity models perform better than stricter models and that the difference between the models is more pronounced in the continuous
+navigation problem than in the discrete grid world problems.

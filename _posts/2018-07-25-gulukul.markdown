@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Gulukul"
+date:   2018-07-10 
+image: /images/gulukul.png
+categories: Internship
+author: ""
+course: ""
+---
+The aim of the project is to transfer the motion between human subjects in different videos using 
+generative adversarial networks (GANs). We used an opensource implementation called OpenPose for 
+detecting 2D pose keypoints for body, face and hand. We trained the GAN using google cloud virtual 
+machine and used the architectures proposed in pix2pixHD paper.
