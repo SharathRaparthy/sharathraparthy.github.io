@@ -7,7 +7,7 @@ categories: research
 authors: "Anil Kota, <strong>Sharath Chandra</strong>, Parag Khanna, Torbjorn Dahl"
 subtitle: "NeurIPS"
 venue: "Thirty-second Conference on Neural Information Processing Systems (NeurIPS), Workshop on Reinforcement Learning Under Partial Observability"
-arxiv: https://arxiv.org/abs/1705.05548
+arxiv: https://www.ias.informatik.tu-darmstadt.de/uploads/Team/JoniPajarinen/RLPO2018_paper_20.pdf
 code: https://github.com/SharathRaparthy/explicit_sequence_proximity
 ---
 We tackle the problem of hidden state identification in POMDPs. We show that more forgiving proximity models perform better than stricter models and that the difference between the models is more pronounced in the continuous
