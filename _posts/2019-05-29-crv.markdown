@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "PARLOMA - Effective deaf-blind communication"
+date:   2018-06-10 
+image: /images/parloma.gif
+categories: Internship
+author: ""
+course: " - Research under Prof. Calogero Maria Oddo at The BioRobotics Institute"
+report: https://drive.google.com/file/d/0BzxxKJtl3b_wR3AzbTMwQXl2bUU/view  
+video: https://drive.google.com/file/d/1f95u-EsrvohqberHLO1XBdQUw72VisZE/view
+---
+This work aims at designing a remote communication system for deaf-blind people where
+we focus on implementing state-of-the-art algorithms for 3d hand pose estimation using dif-
+ferent approaches like deep learning, semi-supervised learning and random forest classifier.
+It involves the integration of haptic and robotic interfaces together with CNN based approaches
+for hand pose estimation and remote reproduction of tactile sign language (t-SL) by using one 3D printed bio-mimetic robotic hand.

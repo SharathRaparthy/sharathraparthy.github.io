@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "IvLabs"
+date:   2016-07-24
+image: /images/ivlabs.png
+categories: Mentorship
+author: ""
+course: ""
+---
+I am a former core committee member of [IvLabs](http://www.ivlabs.in/). I have been actively mentoring some [motivated](https://akshayk07.weebly.com/) [students](https://github.com/navidpanchi) on their projects. 

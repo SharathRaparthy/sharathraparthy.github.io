@@ -1,0 +1,270 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<body style="background-color:whitesmoke;">
+
+<head>
+  <title>{{ site.name }}</title>
+
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+  <meta name="author" content="{{ site.name }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+</head>
+
+
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:60%;vertical-align:middle">
+              <h1>
+
+                <font color=black>Sharath Chandra Raparthy</font>
+
+              </h1>
+              <p>I am a research intern at the <a href="https://mila.quebec/en/">Mila</a> working closely with  <a href="https://sites.google.com/site/irinarish/">Prof. Irina Rish.</a> Prior to this,
+                I worked under the supervision of <a href="http://liampaull.ca/">Prof. Liam Paull</a>  at intersection of reinforcement learning and robotics.
+              </p>
+              <p>
+                Previously, I worked with Prof. Calogero Maria Oddo, at <a href="https://www.santannapisa.it/en/neuro-robotic-touch-laboratory">Neuro-Robotic Touch Laboratory</a>  at <a href="https://www.santannapisa.it/it/istituto/biorobotica/biorobotics-institute">The BioRobotics Institute</a> , Italy, and with <a href="https://www.fose1.plymouth.ac.uk/torbjorn_dahl/index.html" >Prof. Torbjorn Dahl</a> at Plymouth University, United Kingdom, as a research intern. I also worked closely with a San Francisco based startup, <a href="https://www.gulukul.com/">Gulukul</a>, as a deep learning intern.
+              </p>
+              <p>
+                I recently completed my undergraduate degree from <a href="http://vnit.ac.in/">Visvesvaraya National Institute of Technology</a> where I was a core co-ordinator at <a href="http://www.ivlabs.in/">IvLabs</a>, a robotics lab at VNIT.
+
+              </p>
+              <p>
+                Besides research, I sometimes try to <a href="https://photos.app.goo.gl/Ry1TdoQ9EhJhYAcz8">capture random moments.</a>
+              </p>
+              <p style="text-align:center">
+                <a target="_blank" href="sharathraparthy@gmail.com"> Email</a> &nbsp;/&nbsp;
+                <a href="https://github.com/SharathRaparthy">GitHub</a> &nbsp;/&nbsp;
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <img style="width:100%;max-width:100%" alt="profile photo" src="images/sharath.jpg">
+            </td>
+          </tr>
+        </table>
+        <table width="100%" align="center" border="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td style="padding-left:20px;">
+                        <h2>Recent News</h2>
+                    </td>
+
+                </tr>
+                <tr> <td style="padding-left:10px;">
+                  <ul>
+                    <li> <b> Feb 2020:</b> I will be joining <a href="https://mila.quebec/">Mila</a> as a Masters student in Fall 2020</li>
+                  <li> <b> Jan 2020:</b> Started working with <a href="https://sites.google.com/site/irinarish/">Prof. Irina Rish</a> on Meta-Reinforcement Learning </li>
+                   <li> <b> July 2019:</b> Attended and volunteered the multi-disciplinary conference on <a href="http://rldm.org/">Reinforcement Learning and Decision Making, RLDM-2019</a> </li>
+                   <li><b> July 2019:</b> Started my internship at <a href="https://mila.quebec/">Montreal Institute for Learning Algorithms (Mila)</a> under <a href="http://liampaull.ca/">Prof. Liam Paull</a> </li>
+                   <li><b> December 2018:</b> Our paper titled “Explicit Sequence Proximity Models for Hidden State Identification” is accepted to <a href="https://sites.google.com/site/rlponips2018/home/call-for-papers?authuser=0">
+                  NeurIPS 2018 workshop on Reinforcement Learning under Partial Observability </a>  </li>
+                   <li><b> October 2018:</b> I am happy to announce that I have been accepted for PyTorch Scholarship Challenge from Facebook. </li>
+                  </ul>
+            </tbody>
+        </table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2><font color=black>Research</font></h2>
+              <p>
+                My research interest lies in the general area of Reinforcement Learning (RL), more specifically in meta-reinforcement learning (meta-RL) and continual learning.
+              </p>
+            </td>
+          </tr>
+        </table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+          {% for post in site.posts %}
+          {% for cat in post.categories %}
+          {% if cat == 'research' %}
+          <tr>
+            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle">
+              <h3>{{post.title}}</h3>
+              <br>
+              {{post.authors}}
+
+              <br>
+              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+              <br>
+              {% if post.arxiv %}
+              <a href="{{post.arxiv}}">arxiv</a> /
+              {% endif %}
+              {% if post.video %}
+              <a href="{{post.video}}">video</a> /
+              {% endif %}
+              {% if post.code %}
+              <a href="{{post.code}}">code</a> /
+              {% endif %}
+              <p></p>
+              {{ post.excerpt }}
+            </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+        </table>
+        <br>
+        <br>
+        <br>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Past Work</h2>
+              <p>These include side projects and internships.
+              </p>
+            </td>
+          </tr>
+        </table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+          {% for post in site.posts %}
+          {% for cat in post.categories %}
+          {% if cat == 'Internship' %}
+          <tr>
+            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle">
+              <h3>{{post.title}}</h3>
+              <br>
+              <em>{{post.categories}} {{post.course}}</em>
+              <br>
+              {{ post.date | date: "%Y-%m-%d" }}
+
+              <br>
+              {% if post.website %}
+              <a href="{{post.website}}">website</a> /
+              {% endif %}
+              {% if post.paper %}
+              <a href="{{post.paper}}">paper</a> /
+              {% endif %}
+              {% if post.patent %}
+              <a href="{{post.patent}}">patent</a> /
+              {% endif %}
+              {% if post.patent2 %}
+              <a href="{{post.patent2}}">patent #2</a> /
+              {% endif %}
+              {% if post.patent3 %}
+              <a href="{{post.patent3}}">patent #3</a> /
+              {% endif %}
+              {% if post.video %}
+              <a href="{{post.video}}">video</a> /
+              {% endif %}
+              {% if post.video2 %}
+              <a href="{{post.video2}}">video #2</a> /
+              {% endif %}
+              {% if post.code %}
+              <a href="{{post.code}}">code</a> /
+              {% endif %}
+              {% if post.report %}
+              <a href="{{post.report}}">report</a> /
+              {% endif %}
+              {% if post.slides %}
+              <a href="{{post.slides}}">slides</a> /
+              {% endif %}
+              <p></p>
+              {{ post.excerpt }}
+            </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+        </table>
+        <br>
+        <br>
+        <br>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Mentorship</h2>
+            </td>
+          </tr>
+        </table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+          {% for post in site.posts %}
+          {% for cat in post.categories %}
+          {% if cat != 'research' and cat != 'Internship' %}
+          <tr>
+            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle">
+              <h3>{{post.title}}</h3>
+              <br>
+              <em>{{post.categories}} {{post.course}}</em>
+<!--              <br>-->
+<!--              {{ post.date | date: "%Y-%m-%d" }}-->
+
+<!--              <br>-->
+              {% if post.website %}
+              <a href="{{post.website}}">website</a> /
+              {% endif %}
+              {% if post.paper %}
+              <a href="{{post.paper}}">paper</a> /
+              {% endif %}
+              {% if post.patent %}
+              <a href="{{post.patent}}">patent</a> /
+              {% endif %}
+              {% if post.patent2 %}
+              <a href="{{post.patent2}}">patent #2</a> /
+              {% endif %}
+              {% if post.patent3 %}
+              <a href="{{post.patent3}}">patent #3</a> /
+              {% endif %}
+              {% if post.video %}
+              <a href="{{post.video}}">video</a> /
+              {% endif %}
+              {% if post.video2 %}
+              <a href="{{post.video2}}">video #2</a> /
+              {% endif %}
+              {% if post.code %}
+              <a href="{{post.code}}">code</a> /
+              {% endif %}
+              {% if post.poster %}
+              <a href="{{post.poster}}">poster</a> /
+              {% endif %}
+              {% if post.slides %}
+              <a href="{{post.slides}}">slides</a> /
+              {% endif %}
+              <p></p>
+              {{ post.excerpt }}
+            </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+        </table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:center;font-size:small;">
+               Of course, I didn't build this from scratch. Source stolen from  <a style="font-size:small;" href="https://jonbarron.info">here</a>
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
+
