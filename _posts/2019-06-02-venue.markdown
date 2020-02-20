@@ -7,8 +7,8 @@ categories: research
 author: "[Sharath Chandra](https://sharathraparthy.github.io/), Bhairav Mehta and Liam Paull"
 authors: "<strong>Sharath Chandra</strong>, Bhairav Mehta, Florian Golemo, Liam Paull"
 venue: "Submitted to International Joint Conference on Artificial Intelligence (IJCAI)"
-arxiv: []
-code: []
+arxiv: https://arxiv.org/abs/2002.07911
+code: https://github.com/montrealrobotics/unsupervised-adr
 ---
  In  this work, we build on the framework of self-play, allowing an agent to interact with itself in order to make progress on some unknown task. We use
  Active  Domain  Randomization and self-play to create a novel, coupled environment-goal 
