@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Curriculum and Benchmarking in Meta-Reinforcement Learning  "
+title:  "Curriculum in Gradient-Based Meta-Reinforcement Learning"
 date:   2020-01-09
 image: /images/meta-adr.png
 categories: research
