@@ -10,5 +10,4 @@ venue: "Thirty-second Conference on Neural Information Processing Systems (NeurI
 arxiv: https://www.ias.informatik.tu-darmstadt.de/uploads/Team/JoniPajarinen/RLPO2018_paper_20.pdf
 code: https://github.com/SharathRaparthy/explicit_sequence_proximity
 ---
-We tackle the problem of hidden state identification in POMDPs. We show that more forgiving proximity models perform better than stricter models and that the difference between the models is more pronounced in the continuous
-navigation problem than in the discrete grid world problems.
+We tackle the problem of hidden state identification in POMDPs. We show that more forgiving proximity models perform better than stricter models and that the difference between the models is more pronounced in the continuous navigation problem than in the discrete grid world problems.

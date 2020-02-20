@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c46b86e3-1d1c-445e-958d-731a166e9d54" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-07-25-gulukul.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-07-25-gulukul.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-12-13-neurips.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-12-13-neurips.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-05-29-crv.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-05-29-crv.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-06-02-venue.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-06-02-venue.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2019-11-15-meta-adr.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-11-15-meta-adr.markdown" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +46,8 @@
       <updated>1582078253635</updated>
       <workItem from="1582078263547" duration="507000" />
       <workItem from="1582137468009" duration="128000" />
-      <workItem from="1582163968188" duration="697000" />
+      <workItem from="1582163968188" duration="1325000" />
+      <workItem from="1582225655062" duration="117000" />
     </task>
     <servers />
   </component>

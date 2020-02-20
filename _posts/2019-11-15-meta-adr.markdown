@@ -10,5 +10,4 @@ venue: "Submitted to Uncertainty in Artificial Intelligence (UAI)"
 arxiv: https://arxiv.org/abs/2002.07956
 code: []
 ---
-In this work we study the under-studied parameter in meta learning, "Task Distributions". We show that Model Agnostic Meta-Learning (MAML) is sensitive to task distributions, and learning a curriculum of tasks 
-instead of uniformly sampling helps the adaptation performance substantially.
+In this work we study the under-studied parameter in meta learning, "Task Distributions". We show that Model Agnostic Meta-Learning (MAML) is sensitive to task distributions, and learning a curriculum of tasks instead of uniformly sampling helps the adaptation performance substantially.
