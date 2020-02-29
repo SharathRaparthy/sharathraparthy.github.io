@@ -6,7 +6,7 @@ image: /images/unsup-adr.png
 categories: research
 author: "[Sharath Chandra](https://sharathraparthy.github.io/), Bhairav Mehta and Liam Paull"
 authors: "<strong>Sharath Chandra</strong>, Bhairav Mehta, Florian Golemo, Liam Paull"
-venue: "Submitted to International Joint Conference on Artificial Intelligence (IJCAI)"
+venue: "Accepted to  ICLR BeTR-RL workshop. Submitted to International Joint Conference on Artificial Intelligence (IJCAI)"
 arxiv: https://arxiv.org/abs/2002.07911
 code: https://github.com/montrealrobotics/unsupervised-adr
 ---

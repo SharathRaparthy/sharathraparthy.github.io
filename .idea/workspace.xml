@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c46b86e3-1d1c-445e-958d-731a166e9d54" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-06-02-venue.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-06-02-venue.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-11-15-meta-adr.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-11-15-meta-adr.markdown" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +18,7 @@
   <component name="ProjectId" id="1Y0Sw2CIm8n1xqt1ImsgurLq9m8" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/alice-bob-selfplay-plotting" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -44,7 +46,9 @@
       <workItem from="1582137468009" duration="128000" />
       <workItem from="1582163968188" duration="1325000" />
       <workItem from="1582225655062" duration="1399000" />
-      <workItem from="1582685795436" duration="274000" />
+      <workItem from="1582685795436" duration="1101000" />
+      <workItem from="1582745858430" duration="659000" />
+      <workItem from="1583003383928" duration="219000" />
     </task>
     <servers />
   </component>
