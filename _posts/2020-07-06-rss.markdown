@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "CuNAS - CUriosity-driven Neural-Augmented Simulator"
+date:   2020-07-06
+image: /images/neurips.png
+categories: research
+authors: "<strong>Sharath Chandra Raparthy</strong>, Melissa Mozifian, Liam Paull and Florian Golemo"
+subtitle: "R:SS"
+venue: "Robotics: Sicence and Systems; 2nd Workshop on Closing the Reality Gap in Sim2Real Transfer for Robotics"
+arxiv: ""
+code: ""
+---
+Transfer of policies from simulation to physical robots is an important open problem in deep reinforcement learning. Prior work has introduced the model-based Neural-Augmented Simulator (NAS) method, which uses task-independent data to create a model of the differences between simulated and real robot. In this work, we show that this method is sensitive to the sampling of motor actions and the control frequency. To overcome this problem, we propose a simple extension based on artificial curiosity. We demonstrate on a physical robot, that this leads to a better exploration of the state space and consequently better transfer performance when compared to the NAS baseline.
