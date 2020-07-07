@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c46b86e3-1d1c-445e-958d-731a166e9d54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2020-07-06-rss.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-07-06-rss.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-07-06-rss.markdown" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +44,7 @@
       <workItem from="1583003383928" duration="1054000" />
       <workItem from="1586745503320" duration="2474000" />
       <workItem from="1586794821408" duration="7000" />
-      <workItem from="1594105121509" duration="1526000" />
+      <workItem from="1594105121509" duration="2903000" />
     </task>
     <task id="LOCAL-00001" summary="added slides">
       <created>1586751099394</created>
