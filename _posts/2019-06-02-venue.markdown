@@ -10,5 +10,6 @@ venue: "Accepted to  ICLR BeTR-RL workshop. Submitted to International Joint Con
 arxiv: https://arxiv.org/abs/2002.07911
 code: https://github.com/montrealrobotics/unsupervised-adr
 slides: https://docs.google.com/presentation/d/1wy8jSWMQQtlwAtMIVtod0Z47ODXw9JvU4UskICPDPys/edit?usp=sharing
+talk: http://www.betr-rl.ml/2020/abs/11/
 ---
  In  this work, we build on the framework of self-play, allowing an agent to interact with itself in order to make progress on some unknown task. We use Active  Domain  Randomization and self-play to create a novel, coupled environment-goal curriculum, where agents learn through progressively more difficult tasks and environment variations. 
