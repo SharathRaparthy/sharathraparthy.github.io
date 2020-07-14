@@ -6,7 +6,7 @@ image: /images/r:ss.png
 categories: research
 authors: "<strong>Sharath Chandra Raparthy</strong>, Melissa Mozifian, Liam Paull and Florian Golemo"
 subtitle: "R:SS"
-venue: "Robotics: Sicence and Systems; 2nd Workshop on Closing the Reality Gap in Sim2Real Transfer for Robotics"
+venue: "Robotics: Science and Systems; 2nd Workshop on Closing the Reality Gap in Sim2Real Transfer for Robotics"
 arxiv: ""
 slides: https://docs.google.com/presentation/d/1nVbt0iQKFTOgHEQLLHbn1Wy3bMs_mWpyzfc0aZsN30U/edit?usp=sharing
 talk: https://www.youtube.com/watch?v=Tlf5RG3OPF8&list=PL4BpvvbNDc3SxmswMbOljlUcCQJQ6eFDL&index=6
